@@ -1,32 +1,45 @@
 .nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px;
-    height: 25px;
-    z-index: 1;
-
-    /* Animations */
-    transition-timing-function: ease-in;
-    transition: all 0.5s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 25px;
+  z-index: 1;
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
 }
 
 .nav__black {
-    background-color: #111;
+  background-color: #111;
 }
 
 .nav__logo {
-    margin-top: -10px;
-    position: fixed;
-    left: 20px;
-    width: 80px;
-    object-fit: contain;
+  margin-top: -15px;
+  margin-left: 15px;
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
 }
 
 .nav__avatar {
-    margin-top: -7px;
-    position: fixed;
-    right: 20px;
-    width: 30px;
-    object-fit: contain;
+  margin-top: -7px;
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.nav__menu {
+  color: white;
+  margin-top: 20px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+.nav__sidebar {
+  background-color: rgb(22, 23, 24);
+  min-width: 25%;
+  height: 100%;
 }

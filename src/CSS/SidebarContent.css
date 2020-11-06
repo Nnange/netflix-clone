@@ -1,0 +1,15 @@
+.sidebarContent > h1 {
+  margin-top: 10px;
+  font-size: larger;
+  height: 10vh;
+  color: white;
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 550ms;
+}
+
+.sidebarContent > h1:hover {
+  background-color: rgba(255, 255, 255, 0.418);
+  transform: scale(1.08);
+}
